@@ -1,0 +1,66 @@
+$base-color: rgba(0,0,0,1);
+$list-item-background-color: rgba(0,0,0,1);
+$list-item-border-color: rgba(0,0,0,1);
+$list-item-color: rgba(255,255,255,1);
+$list-item-pressed-background-color: rgba(250,35,35,1);
+$list-item-selected-background-color: rgba(0,0,0,1);
+$toolbar-background-color: rgba(0,0,0,1);
+$toolbar-title-color: rgba(255,255,255,1);
+
+@import 'sencha-modern/default';
+@import 'sencha-modern/default/all';
+
+
+.floating {
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+.title {
+    color: yellow;
+    font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+p {
+    font: 200 12px/1.5 Helvetica, Verdana, serif;
+}
+
+.section {
+    width: 100%;
+}
+
+.pnlbg {
+    background-image: url("images/bg-home.png");
+    background-color: #cccccc;
+}
+
+.h4 {
+    font-size:20px;
+    color:#ffffff;
+    font-family: 'Lato', sans-serif !important;
+    font-weight:700 !important;
+    text-shadow:1px 2px 3px #000;
+
+}
+
+.desc {
+    color:#ffffff;
+    font-size:12px;
+    font-weight: normal !important;
+    font-family: 'Lato', sans-serif !important;
+    text-align:center;
+    line-height:1.2;
+    text-shadow:1px 1px 2px #212121;
+}
+
+
+.lstbg {
+    opacity: 0.8;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+.header {
+    background-color: #494a4c;
+}

@@ -1,0 +1,11 @@
+{
+    "profiles": [
+        {
+            "name": "Extra Large",
+            "width": 1280,
+            "height": 2000,
+            "builtIn": false,
+            "fw": "ext"
+        }
+    ]
+}

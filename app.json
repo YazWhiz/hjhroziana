@@ -1,0 +1,91 @@
+{
+   "toolkit": "classic",
+   "name": "HjHRoziana",
+   "version": "1.0.0.0",
+   "indexHtmlPath": "index.html",
+   "classpath": "${app.dir}/app,${app.dir}/slick/,${app.dir}/app/",
+   "overrides": "${app.dir}/overrides",
+   "framework": "ext",
+   "theme": "theme-crisp-bc2e4c3c-1bc8-479a-a087-d4d9e43f1a57",
+   "requires": [],
+   "sass": {
+      "namespace": "HjHRoziana"
+   },
+   "js": [
+      {
+         "path": "${framework.dir}/build/ext-all-rtl-debug.js"
+      },
+      {
+         "path": "slick/jquery-1.11.0.min.js",
+         "remote": true,
+         "x-compile": true
+      },
+      {
+         "path": "slick/jquery-migrate-1.2.1.min.js",
+         "remote": true,
+         "x-compile": true
+      },
+      {
+         "path": "slick/slick.min.js",
+         "remote": true,
+         "x-compile": true
+      },
+      {
+         "path": "app/Global.js",
+         "x-compile": true
+      },
+      {
+         "path": "app.js",
+         "bundle": true
+      }
+   ],
+   "css": [
+      {
+         "path": "bootstrap.css",
+         "bootstrap": true
+      },
+      {
+         "path": "slick/slick.css",
+         "remote": true
+      },
+      {
+         "path": "slick/slick-theme.css",
+         "remote": true
+      }
+   ],
+   "production": {},
+   "testing": {},
+   "development": {},
+   "bootstrap": {
+      "base": "${app.dir}",
+      "manifest": "bootstrap.json",
+      "microloader": "bootstrap.js",
+      "css": "bootstrap.css"
+   },
+   "output": {
+      "base": "${workspace.build.dir}/${build.environment}/${app.name}"
+   },
+   "appCache": {
+      "cache": [
+         "index.html"
+      ],
+      "network": [
+         "*"
+      ],
+      "fallback": []
+   },
+   "resources": [],
+   "ignore": [
+      "(^|/)CVS(/?$|/.*?$)"
+   ],
+   "archivePath": "archive",
+   "slicer": {
+      "js": [
+         {
+            "path": "${app.dir}/sass/example/custom.js",
+            "isWidgetManifest": true
+         }
+      ]
+   },
+   "id": "85fcecb0-c35b-4423-a988-92bec542a0c3"
+}
